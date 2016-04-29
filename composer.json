@@ -4,8 +4,8 @@
         "phpunit/phpunit": "4.8.18"
     },
     "autoload": {
-		"psr-4": {
-			"PageGrabber\\":"./src/"
-		}
+	"psr-4": {
+	    "PageGrabber\\":"./src/"
 	}
+    }
 }
