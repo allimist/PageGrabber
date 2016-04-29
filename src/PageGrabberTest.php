@@ -26,12 +26,12 @@ class PageGrabberTest extends PHPUnit_Framework_TestCase
     public function providerTestTitleExpected()
     {
         return array(
-            array("test/testPages/testRegularTitle.php", "This is the title"),
-            array("test/testPages/testNumbersTitle.php", "Titl3 w1th Num6e7s"),
-            array("test/testPages/testNonEnglishTitle.php", "כותרת בשפה אחרת"),
-            array("test/testPages/testSpecialCharactersTitle.php", "#`$%special characters^&*()!'"),
-            array("test/testPages/testEmptyTitle.php", ""),
-            array("test/testPages/testBackspaceTitle.php", "   "),
+            array("vendor/allimist/page-grabber/testPages/testRegularTitle.php", "This is the title"),
+            array("vendor/allimist/page-grabber/testPages/testNumbersTitle.php", "Titl3 w1th Num6e7s"),
+            array("vendor/allimist/page-grabber/testPages/testNonEnglishTitle.php", "כותרת בשפה אחרת"),
+            array("vendor/allimist/page-grabber/testPages/testSpecialCharactersTitle.php", "#`$%special characters^&*()!'"),
+            array("vendor/allimist/page-grabber/testPages/testEmptyTitle.php", ""),
+            array("vendor/allimist/page-grabber/testPages/testBackspaceTitle.php", "   "),
             array("", ""),
             array("http://urldontexist.com",""),
             array("https://blazemeter.com", "JMeter, Load &amp; Continuous Performance Testing Platform")
