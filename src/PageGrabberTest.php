@@ -6,7 +6,7 @@ include ('PageGrabber.php');
 /**
  * Test PageGrabber class
  */
-class PageGrabberTest extends PHPUnit_Framework_TestCase
+class PageGrabberTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * test if the title from the url is the expected title
