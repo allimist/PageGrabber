@@ -18,7 +18,7 @@ class PageGrabberTest extends \PHPUnit_Framework_TestCase
     public function testTitleExpected($url, $expectedTitle)
     {	
         $p = new PageGrabber($url);
-	$result = $p->get_title();
+	$result = $p->getTitle();
 		
 	$this->assertEquals($expectedTitle, $result);
     }
