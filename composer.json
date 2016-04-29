@@ -1,5 +1,5 @@
 {
-    "name": "allimist/page_grabber",
+    "name": "allimist/page-grabber",
     "require": {
         "phpunit/phpunit": "4.8.18"
     }
