@@ -1,5 +1,5 @@
 <?php
-
+namespace PageGrabber;
 /**
  * Grab the title from a page/URL
  */
