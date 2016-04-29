@@ -1,4 +1,5 @@
 <?php
+namespace PageGrabber;
 
 include ('PageGrabber.php');
 
